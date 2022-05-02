@@ -1,0 +1,3 @@
+with open('deneme.txt','w') as f:
+    f.write("yeni satir\n")
+    print(f.read())
